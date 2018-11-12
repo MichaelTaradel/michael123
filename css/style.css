@@ -1,0 +1,105 @@
+body{
+	text-align: center;
+	color: #fff;
+	background: white;
+	
+}
+
+.main-header{
+	margin-bottom: 10px;
+	color: white;
+}
+
+.button {
+	background: grey;
+	color: white;
+	padding: 10px;
+	
+}
+
+.button:hover {
+	background: red;
+	color: black;
+	
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align:	center;
+	list-style: none;
+	display: grid;	
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-row: 1fr;
+	
+}
+
+.main-article{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}	
+.main-article-left{ 
+	background: black;
+	padding: 50px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 5px #9f8260;
+
+
+}
+.main-article-left p{
+	margin: 40px 0 60px 0;
+
+
+}
+.main-article-left h3{
+	margin: 40px 0 60px 0;
+
+
+}
+.main-article-right{
+	background: black;
+	padding: 10px;
+	box-shadow: 0 0 5px #9f8260;
+	color: 
+
+}
+	
+.showcase{
+   margin-bottom: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 400px;
+   background-image: url(../Images/2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 0 0 5px #9f8260;
+}	
+
+.FOOTER{
+    background: gray;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin: 10px;
+	color: white;
+	box-shadow: 0 0 5px #9f8260;
+}
+
+.FOOTER:hover{
+    color:black;
+	background:red;
+}
+
+
+
+a {
+	text-decoration: none;
+	
+}
